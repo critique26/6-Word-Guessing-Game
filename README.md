@@ -32,28 +32,40 @@ Nested Lists: Storing [Hint, Answer, Category] records and [Player, Score] high 
 List Operations: Deck management via pop(), append(), list slicing, and lambda key sorting.
 
 Installation & Setup
-Clone the Repository
+1. Clone the Repository
 
 Bash
 git clone https://github.com/your-username/python-quest-word-guessing-game.git
 cd python-quest-word-guessing-game
-Install Dependencies
+
+2. Install Dependencies
 Make sure you have pygame installed:
 
 Bash
 pip install pygame
-Run the Game
+
+3. Run the Game
 
 Bash
 python main.py
+
 How to Play & Controls
+
 Game State	Controls
+
 Name Input	Type player name + ENTER
+
 Instructions	Press ENTER to begin
+
 Gameplay	Type word guess + ENTER to submit
+
 Feedback Screens	Press ENTER to continue
+
 End Game / Victory	R (Replay), L (Leaderboard), H (History)
+
 Leaderboard / History	R (Replay), L (Leaderboard), H (History)
+
 Global Controls	ESC (Quit Game)
 
+License
 This project is open-source and available under the MIT License.
