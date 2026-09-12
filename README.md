@@ -49,6 +49,7 @@ pip install pygame
 Bash
 python main.py
 
+
 How to Play & Controls
 
 Game State	Controls
@@ -67,5 +68,5 @@ Leaderboard / History	R (Replay), L (Leaderboard), H (History)
 
 Global Controls	ESC (Quit Game)
 
-License
+
 This project is open-source and available under the MIT License.
