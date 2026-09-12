@@ -1,34 +1,59 @@
-# 6-Word-Guessing-Game
-Python Quest
-A pastel galaxy-themed Pygame word guessing game to test your Python and Computer Science knowledge!
+Python Quest: Word Guessing Game
+Python Quest is an interactive, pastel galaxy-themed arcade word puzzle built entirely with Pygame. Test and sharpen your Python programming and Computer Science knowledge by solving technical clues across various CS domains before running out of lives!
 
 Features
-Custom Names: Input player profiles.
+Custom Player Profiling: Input your handle at launch to track performance across sessions.
 
-Random Questions: Questions shuffle every session.
+Dynamic Question Deck: Randomly shuffles a master question bank into an active pool for unique playthroughs.
 
-Letter Tracking: Shows letters used in real-time.
+Real-Time Character History: Live on-screen tracking of used keystrokes to prevent repeated mistakes.
 
-Scoring & Lives: +10 points per win, 5 lives max.
+Life & Scoring System:
 
-Leaderboard & History: Tracks top scores and past match logs.
+Gain +10 Points for every correct word guessed.
 
-How to Run
-Install Pygame
+Lose 1 Life (out of 5) for incorrect word submissions.
+
+Persistent Leaderboard: Ranks player scores in descending order.
+
+Match History Log: Displays past word outcomes, attempt counts, and round statuses.
+
+Pastel Galaxy Aesthetic: Custom UI panels, high-contrast text, and a dynamic starfield background.
+
+Tech Stack & Data Structures
+Language: Python 3
+
+Graphics & Loop Engine: Pygame
+
+Core Data Structures: Heavy reliance on Python lists, including:
+
+Nested Lists: Storing [Hint, Answer, Category] records and [Player, Score] high scores.
+
+List Operations: Deck management via pop(), append(), list slicing, and lambda key sorting.
+
+Installation & Setup
+Clone the Repository
+
+Bash
+git clone https://github.com/your-username/python-quest-word-guessing-game.git
+cd python-quest-word-guessing-game
+Install Dependencies
+Make sure you have pygame installed:
 
 Bash
 pip install pygame
-Start Game
+Run the Game
 
 Bash
 python main.py
-Controls
-Type & Enter: Submit names and word guesses.
-
-R: Restart / Play Again.
-
-L: View Leaderboard.
-
-H: View Match History.
-
-ESC: Exit Game.
+How to Play & Controls
+Game State	Controls
+Name Input	Type player name + ENTER
+Instructions	Press ENTER to begin
+Gameplay	Type word guess + ENTER to submit
+Feedback Screens	Press ENTER to continue
+End Game / Victory	R (Replay), L (Leaderboard), H (History)
+Leaderboard / History	R (Replay), L (Leaderboard), H (History)
+Global Controls	ESC (Quit Game)
+License
+This project is open-source and available under the MIT License.
